@@ -144,7 +144,6 @@ export default {
         const { next, prev } = data.info;
         this.next = next;
         this.prev = prev;
-        console.log(this.list);
       } catch (e) {
         console.warn(e);
       } finally {
